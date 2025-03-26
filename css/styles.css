@@ -89,6 +89,8 @@ p {
   margin-bottom: 20px;
 }
 .btn {
+  display: inline-block;
+  text-decoration: none;
   width: 120px;
   height: 50px;
   border-radius: 5px;
@@ -97,7 +99,14 @@ p {
   border: none;
   font-weight: bold;
   margin: 5px;
+  align-content: center;
+  
 }
+.btn:hover{
+ background-color: white;
+ color: black;
+}
+
 .btn2 {
   background-color: transparent;
   border: 2px solid white;
